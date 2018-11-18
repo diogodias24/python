@@ -13,6 +13,3 @@ output = string.format(name,age)
 # Print the Output
 print (output)
 
-
-
-#"=" *20

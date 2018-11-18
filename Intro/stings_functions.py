@@ -47,3 +47,13 @@ var.find ("1234444")
 var = "000000happybirthday000"
 var.strip("0")
  # will return 'happybirthday'
+
+# you can srip zeros in left or right with
+x.lstrip ("0")/ x.rstrip ("0")
+  #Careful, he don't change the value of string
+
+# remove spaces from input
+name = input ("Waht is your name: ").strip() # remove the spaces after user inputed their name
+
+# give the lenght of string
+len(name)
